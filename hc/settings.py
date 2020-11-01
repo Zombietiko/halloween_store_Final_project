@@ -89,7 +89,8 @@ WSGI_APPLICATION = 'hc.wsgi.application'
 
 
 DATABASES = {
-    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    'default': dj_database_url.parse('postgres://ytroinyvvidqmb:4cc2151c1ad382b04f8553e1f013d54bddddf2746f8eb309da69850f066fc530@ec2-54-247-79-178.eu-west-1.compute.amazonaws.com:5432/d68tofssre50uh')
+    #(os.environ.get('DATABASE_URL'))
     
 }
 
