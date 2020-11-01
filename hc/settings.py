@@ -89,7 +89,8 @@ WSGI_APPLICATION = 'hc.wsgi.application'
 
 
 DATABASES = {
-    'default' : dj_database_url.parse('postgres://nbakwduojyjjwe:65a9d48b682afb30612accb3a9f50df81e76159870530db2e38341a33a429a50@ec2-52-31-233-101.eu-west-1.compute.amazonaws.com:5432/d6nljkh60a50k3')
+    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    
 }
 
 
@@ -128,6 +129,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
+
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
