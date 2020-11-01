@@ -26,10 +26,7 @@ SECRET_KEY = 'u(0#i!3$82q$*g!_^q7^i4n^zk-25***p4k65420=%@c1t$i-g'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    'thehalloweenstore.herokuapp.com',
-    'localhost',
-    '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -90,10 +87,9 @@ WSGI_APPLICATION = 'hc.wsgi.application'
     #}
 #}
 
-SITE_ID = 1
 
 DATABASES = {
-    'default' : dj_database_url.parse('postgres://ytroinyvvidqmb:4cc2151c1ad382b04f8553e1f013d54bddddf2746f8eb309da69850f066fc530@ec2-54-247-79-178.eu-west-1.compute.amazonaws.com:5432/d68tofssre50uh')
+    'default' : dj_database_url.parse('postgres://nbakwduojyjjwe:65a9d48b682afb30612accb3a9f50df81e76159870530db2e38341a33a429a50@ec2-52-31-233-101.eu-west-1.compute.amazonaws.com:5432/d6nljkh60a50k3')
 }
 
 
