@@ -54,7 +54,7 @@ The app logic leads the customer to sign up to the site and buy items for Hallow
 
 <h1>Cross-app logic</h1> 
 
-The app works on a mobile as as a websiet.
+The app works on a mobile via a web browsers.
 
 <h1>E-commerce</h1>
 
