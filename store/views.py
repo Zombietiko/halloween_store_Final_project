@@ -280,30 +280,4 @@ def sendEmail(order_id):
     except IOError as e:
         return e
 
-def contact(request):
-    if request.method == 'POST':
-        form = ContactForm(request.POST)
-        if form.is_valid():
-            subject = form.cleaned_data.get('subject')
-            from_email = form.cleaned_data.get('from_email')
-            message = form.cleaned_data.get('message')
-            name = form.cleaned_data.get('name')
 
-            message_format = "{0} has sent you a new message:\n\n{1}".format(name, message)
-
-            msg = EmailMessage(
-                subject,
-                message_format,
-                to=["thehalloweenstore@gmail.com"],
-                from_email=from_email
-            )
-
-            msg.send()
-
-            return render(request, 'contact_success.html')
-
-
-    else:
-        form = ContactForm()
-
-    return render(request, 'contact.html', {'form': form})
