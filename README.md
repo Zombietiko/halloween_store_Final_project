@@ -79,7 +79,6 @@ The app has a sign up and login fucntion and the user can only pay for item afte
 <p>•I tested that the user can add a review when logged into the app</P>
 <p>•I tested that the user could print off their invoice if they wanted to for their records</P>
 <p>•I tested that the categories and products in Django admin went into my app</p>
-<p>•I tested that that the contact page sent an email</P>
 <p>•I tested that that the search function worked and loaded the product that I had added</P>
 <p>•I Used W3c validator to validate the html pages created. I copied my code and pasted it into the validator to check for errors and warnings.</P>
 <p>•I tested that Heroku had connected properly with my git repository </P>
