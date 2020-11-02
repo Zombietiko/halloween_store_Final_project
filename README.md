@@ -1,6 +1,6 @@
 <h1>The Halloween Store| Full Stack Frameworks with Django Milestone Project  </H1>
 
-Please click [here]( https://thehalloweenstore.herokuapp.com/) to visit a live demo of my project.
+Please click [here](https://hsstore.herokuapp.com/) to visit a live demo of my project.
 
 My final Milestone Project for Code Institute is a Django Fullstack app.
 app my idea is to create a The design was to have an app where there was the freedom to add a recipe you really liked to the Recipe Book App.
