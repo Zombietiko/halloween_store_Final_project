@@ -294,7 +294,7 @@ def contact(request):
             msg = EmailMessage(
                 subject,
                 message_format,
-                to=['info@teamchimichanga.com'],
+                to=["thehalloweenstore@gmail.com"],
                 from_email=from_email
             )
 
