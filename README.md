@@ -48,10 +48,21 @@ The UX Designs of the site can be found in the PDF file saved to the project in 
 
 <h1> Features </h1>
 
-App logic - --
-Cross-app logic - 
-E-commerce - 
-Authentication and Security
+<h1>App logic</h1>
+
+The app logic leads the customer to sign up to the site and buy items for Halloween.
+
+<h1>Cross-app logic</h1> 
+
+The app works on a mobile as as a websiet.
+
+<h1>E-commerce</h1>
+
+As the app is a store, It has items and prices detailed thoughout the site to add items to the basket and to purchase when finished shopping. 
+
+<h1>Authentication and Security</h1>
+
+The app has a sign up and login fucntion and the user can only pay for item after they have paid 
 
 <h1> Testing </h1>
 
