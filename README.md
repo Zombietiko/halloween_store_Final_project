@@ -3,7 +3,7 @@
 Please click [here](https://hsstore.herokuapp.com/) to visit a live demo of my project.
 
 My final Milestone Project for Code Institute is a Django Fullstack app.
-app my idea is to create a The design was to have an app where there was the freedom to add a recipe you really liked to the Recipe Book App.
+app my idea is to create a The design was to have an app for a Halloween store.
 
 <H1>UX</H1> 
 
